@@ -1,6 +1,6 @@
 import React from 'react';
 
-class DelayMount extends React.Component {
+class LazyComponent extends React.Component {
     constructor(props) {
         super(props)
         this.mounted = false;
@@ -65,4 +65,4 @@ class DelayMount extends React.Component {
     }
 }
 
-export default DelayMount;
+export default LazyComponent;
