@@ -1,0 +1,31 @@
+{
+  "name": "lazy-load-component",
+  "version": "1.0.0",
+  "description": "'Simple lazy loading react component which will load as per time interval defined with counter'",
+  "main": "lazyComponent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neroze/lazy-load-component.git"
+  },
+  "keywords": [
+    "react",
+    "delay",
+    "lazy",
+    "timeinterval",
+    "jumper",
+    "component",
+    "timedelay"
+  ],
+  "author": "Niraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neroze/lazy-load-component/issues"
+  },
+  "homepage": "https://github.com/neroze/lazy-load-component#readme"
+}
