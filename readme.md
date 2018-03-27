@@ -5,6 +5,13 @@ Just delays component rendering time with counter
 ![Alt text](images/image1.png?raw=true "Image 1")
 ![Alt text](images/image3.png?raw=true "Image 3")
 
+### Installation
+```
+$ npm i delay-component-load
+OR
+$ yarn add delay-component-load
+```
+
 ### Uses <br/>
 ```
 	const SET_TIME_INTERVAL = 10;
