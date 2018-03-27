@@ -5,4 +5,28 @@ Just delay rendering component with counter
 ![Alt text](images/image1.png?raw=true "Image 1")
 ![Alt text](images/image3.png?raw=true "Image 3")
 
+### Uses <br/>
+```
+	const SET_TIME_INTERVAL = 10;
+	.
+	.
+	.
+	<Lazy
+		timeInterval={this.state.timeInterval}
+		label={`You can resend in %timer% seconds`}
+	>
+		<span
+			className='textbutton textbutton--small'
+			onClick={(e) => {
+				// this.handleInvite(e, false, false)
+				this.setState({
+					timeInterval: SET_TIME_INTERVAL
+				})
+			}}
+		>
+			Resend
+		</span>
+	</Lazy>
+```
+
 
