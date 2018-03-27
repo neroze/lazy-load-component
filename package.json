@@ -1,6 +1,6 @@
 {
   "name": "delay-component-load",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "'Simple lazy loading react component which will load as per time interval defined with counter'",
   "main": "lazyComponent.js",
   "scripts": {
