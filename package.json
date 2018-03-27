@@ -4,9 +4,15 @@
   "description": "'Simple lazy loading react component which will load as per time interval defined with counter'",
   "main": "lazyComponent.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint lazyComponent.js"
   },
   "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
     "react": "16.2.0"
   },
   "repository": {
@@ -27,5 +33,12 @@
   "bugs": {
     "url": "https://github.com/neroze/lazy-load-component/issues"
   },
-  "homepage": "https://github.com/neroze/lazy-load-component#readme"
+  "homepage": "https://github.com/neroze/lazy-load-component#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
