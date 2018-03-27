@@ -1,5 +1,5 @@
-## Lazy load component<br />
-Just delay rendering component with counter
+## Delay component load <br />
+Just delays component rendering time with counter
 <br />
 ![Alt text](images/image2.png?raw=true "Image 2")
 ![Alt text](images/image1.png?raw=true "Image 1")
