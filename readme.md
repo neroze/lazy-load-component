@@ -12,7 +12,7 @@ OR
 $ yarn add delay-component-load
 ```
 
-### Uses <br/>
+### Usage <br/>
 ```
 	const SET_TIME_INTERVAL = 10;
 	.
